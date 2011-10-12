@@ -22,6 +22,7 @@ module Apotomo
       def animate(id, markup)
         wrapped_markup = "<div id=\"wrapper-#{id}\" style=\"opacity: 0\">#{markup}</div>"
 
+        # FIXME If called repeatedly, then this will keep generating div wrappers.
         "#{element(id)}.replaceWith('#{escape(wrapped_markup)}');" +
         "#{element("wrapper-#{id}")}.animate({ 'opacity': 1}, 400);"
       end
