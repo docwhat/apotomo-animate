@@ -1,0 +1,4 @@
+# apotomo-animate
+
+This gem adds the `animated_replace()` to your widgets, an alternative to `replace()` that fades in slowly.
+
