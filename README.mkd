@@ -1,4 +1,6 @@
 # apotomo-animate
 
-This gem adds the `animated_replace()` to your widgets, an alternative to `replace()` that fades in slowly.
+[![Build Status](https://secure.travis-ci.org/docwhat/apotomo-animate.png)](http://travis-ci.org/docwhat/apotomo-animate)
+
+This gem adds the `animated_replace()` to your widgets, an alternative to `replace()` that fades in slowly to the [Apotomo](http://apotomo.de/) widget framework.
 
